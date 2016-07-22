@@ -57,7 +57,7 @@ Add environment with pipelines, agents and environment variables
 * Enter name "first environment"
 * Finish "env-name"
 * Verify error "Failed to add environment." message shows up
-* Enter name "foo_!_bar"
+* Enter name "fooEnvironment"
 
 * Select tab "env-pipelines"
 * Verify pipelines "basic-pipeline, basic-pipeline-slow, pipeline-with-failing-stage" are present
@@ -72,7 +72,7 @@ Add environment with pipelines, agents and environment variables
 * Add new variable
 * For variable "1" name "name" value "other-value"
 * Finish
-* Verify error "Failed to add environment. Environment Variable name 'name' is not unique for environment 'foo_!_bar'." message shows up
+* Verify error "Failed to add environment. Environment Variable name 'name' is not unique for environment 'fooEnvironment'." message shows up
 * Select tab "env-vars"
 * Delete variable "1"
 * Add new variable
@@ -80,7 +80,7 @@ Add environment with pipelines, agents and environment variables
 * Finish
 
 * Verify error "Failed to add environment." message shows up
-* Verify name is "foo_!_bar"
+* Verify name is "fooEnvironment"
 * Select tab "env-pipelines"
 * Verify pipelines "basic-pipeline,basic-pipeline-slow" are selected
 * Select tab "env-agents"
